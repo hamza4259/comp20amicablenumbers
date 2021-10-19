@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP20-Amicable Numbers</title>
+</head>
+
+<body>
+    <h1>Are these two numbers Amicable?</h1>
+    <div>
+        <form>
+            <div>
+                <label>First:</label>
+                <input type="text" id="firstNumber">
+            </div>
+
+            <div>
+                <label>Second:</label>
+                <input type="text" id="secondNumber">
+            </div>
+
+            <!-- trigger form submission and calculations -->
+            <!-- everything in double quotes is JS -->
+            <input type="button" id="btn" value="Check" onclick="amicableNumbers()">
+        </form>
+        <div id="results"></div>
+        <div id="factors"></div>
+    </div>
+    <script language="javascript" src="index.js"></script>
+</body>
+</html>
